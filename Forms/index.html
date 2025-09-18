@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Survey Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Interactive Survey Form</h1>
+    <hr>
+    <h2>User Details</h2>
+    <form id="SurveyForm">
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" placeholder="Name"> <br> <br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" name="" id="email" placeholder="Email"> <br>
+        
+        <h2>Satisfaction Survey</h2>
+        <label for = "satisfaction">How satisfied are you with our service ?</label> <br> 
+        <select name="satisfaction" id="satisfaction">
+
+            <option value=""disable select hidden >Select an option...</option>
+            <option value="Very Satisfied">Very Satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Dissatisfied">Dissatisfied</option>
+            <option value="Very Dissatisfied">Very Dissatisfied</option>
+        </select>
+        <br>
+
+        <h2>Recommendations</h2>
+        <label for="Recommend">Would You Recommend Us to A Friend ?</label> <br>
+        <input type="radio" id="Yes" name="Recommend" value="Yes">
+        <label for="Yes">Yes</label><br>
+
+        <input type="radio" id="No" name="Recommend" value="No">
+        <label for="No">No<label><br>
+
+        <h2>Comments</h2>
+        <label for="Comments">Additional Comments</label> <br>
+        <textarea placeholder="Comment here !" name="Comments" rows="5" cols="50" id="Comments"></textarea> <br>
+
+        <input type="submit" id="submitBtn"> <br>
+        <div id="formFeedback"> Feedback Form</div>
+       
+    </form>
+
+
+</body>
+</html>

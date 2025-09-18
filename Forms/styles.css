@@ -1,0 +1,55 @@
+
+/* General form container */
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #034c63;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(3, 52, 124, 0.1);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Label styling */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type=""],
+form input[type="radio"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-size: 16px;
+}
+
+
+
+/* Submit button */
+form button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
